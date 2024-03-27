@@ -4,9 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Extra Credit</title>
+    <h1> This is my name branch! </h1>
     <h1> Hello! This is for Extra Credit! </h1>
-  </head>
-  <body>
-    <a href="my-page.html">Your New Page</a>
-  </body>
-</html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script> 
+      function redirectToPage() {
+          windows.location.href = "my-page.html";
+      }
+      </script>
+    </head>
+    <body>
+      <a href="my-page.html">Your New Page</a>
+      <button onclick="redirectToPage()">Your my-page</button>
+    </body>
+  </html>
+  
